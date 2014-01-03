@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+	<cron>
+		<url>/dailyreport</url>
+		<description>Mail out a Daily report</description>
+		<schedule>every day 00:00</schedule>
+		<!-- <schedule>every 15 minutes from 09:00 to 00:00</schedule> -->
+		<timezone>Europe/London</timezone>
+		<target>version-1</target>
+	</cron>
+</cronentries>
